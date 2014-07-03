@@ -1,0 +1,18 @@
+@mixin logo ($width, $height, $image) {
+	background:url($image) top left no-repeat;
+	width: $width;
+	height: $height;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+
+@mixin subheading () {
+	font-family: 'alternategothic2_btregular', arial, helvetica, sans-serif;
+	text-transform: uppercase;
+	  font-weight: normal;
+    font-style: normal;
+    color: #fff
+}
+

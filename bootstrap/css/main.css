@@ -1,0 +1,77 @@
+/* line 4, _variables.scss */
+h1 {
+  font-family: 'boycottregular', arial, helvetica, sans-serif;
+  font-weight: normal; }
+
+/* line 9, _variables.scss */
+#menu-main-navigation li a {
+  font-family: 'alternategothic2_btregular', arial, helvetica, sans-serif;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'alternategothic2_btregular';
+  src: url("fonts/alternate_gothic_no.2_bt-webfont.eot");
+  src: url("fonts/alternate_gothic_no.2_bt-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/alternate_gothic_no.2_bt-webfont.woff") format("woff"), url("fonts/alternate_gothic_no.2_bt-webfont.ttf") format("truetype"), url("fonts/alternate_gothic_no.2_bt-webfont.svg#alternategothic2_btregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'boycottregular';
+  src: url("fonts/boycott_-webfont.eot");
+  src: url("fonts/boycott_-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/boycott_-webfont.woff") format("woff"), url("fonts/boycott_-webfont.ttf") format("truetype"), url("fonts/boycott_-webfont.svg#boycottregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 30, _globals.scss */
+body {
+  background: #0f0f0f; }
+
+/* line 35, _globals.scss */
+p {
+  color: #666666; }
+
+/* line 39, _globals.scss */
+h1 {
+  text-transform: uppercase; }
+
+/* line 45, _globals.scss */
+h2, h3 {
+  font-family: 'alternategothic2_btregular', arial, helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+  color: white; }
+
+/* line 52, _globals.scss */
+.navbar-brand {
+  background: url("../images/logo.png") top left no-repeat;
+  width: 257px;
+  height: 72px;
+  display: block;
+  text-indent: -9999px;
+  margin: 32px 0 0; }
+
+/* line 57, _globals.scss */
+.main-header {
+  height: 145px;
+  background: #000; }
+
+/* line 62, _globals.scss */
+.nav-bg {
+  background: #f19119;
+  margin: 30px 0 0 0; }
+
+/* line 71, _globals.scss */
+#menu-main-navigation li a {
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3em; }
+  /* line 77, _globals.scss */
+  #menu-main-navigation li a:hover {
+    color: black; }
+
+/* line 88, _globals.scss */
+.dateFloat {
+  float: right;
+  margin: 38px 0 0 0; }
+
+/*# sourceMappingURL=main.css.map */
